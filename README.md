@@ -1,11 +1,18 @@
 ![](./task4.jpg)
 
-## About Laravel
+## About
 
-## Learning Laravel
+This repository contains an evaluation test document for a project developed with Laravel and Bootstrap. The purpose of this test is to assess the functionality and performance of the project.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 1. Installation:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Clone this repository to your local machine.
+Make sure you have Laravel and Bootstrap installed globally.
+Run composer install to install the necessary dependencies.
+Create a new database and update the database credentials in the .env file.
+Run php artisan migrate to set up the required database tables.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 2. Usage:
+
+Once the installation is complete, you can start the development server by running php artisan serve.
+Open your web browser and access the project at http://localhost:8000.
