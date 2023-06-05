@@ -16,5 +16,5 @@ use App\Http\Controllers\StudentDataController;
 
 
 
-Route::view('/', 'addstudentdata');
+Route::view('/', 'addstudentdata')->name('addInfo');
 Route::post('/', [StudentDataController::class, 'addStudentData']);

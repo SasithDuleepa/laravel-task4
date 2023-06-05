@@ -4,9 +4,9 @@
     <div class="container">
         <div class="raw">
             <div class="col-lg-8 text-center">
-                <h1>add member</h1>
+                <h1>Add students Info</h1>
 
-                <form action="add" method="post">
+                <form action="/" method="post">
                     @csrf
                     <div class="col-lg-8 my-4">
                         <input class="form-control" name="name" type="text" placeholder="name"

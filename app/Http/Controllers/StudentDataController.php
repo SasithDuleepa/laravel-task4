@@ -22,6 +22,7 @@ class StudentDataController extends Controller
 
         $studentdata->save();
 
-        return redirect()->back();
+
+        return redirect('/');
     }
 }
